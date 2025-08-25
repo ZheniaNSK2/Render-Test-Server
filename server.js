@@ -60,7 +60,6 @@ wsServer.on('connection', function (socket) {
 	
 	socket.on('error', (err) => {
 		console.log('Socket error: ', err);
-		});
 		
 		socket.terminate();
 	});
