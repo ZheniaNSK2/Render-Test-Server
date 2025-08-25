@@ -48,8 +48,6 @@ wsServer.on('connection', function (socket) {
 		}
 		else if (_msg[0] == "m" || _msg[0] == 109) {
 			msg = _msg.slice(1);
-			
-			}
 		}
 	});
 	
